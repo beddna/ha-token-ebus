@@ -1,17 +1,16 @@
 {
   "domain": "token_ebus",
   "name": "Token eBUS",
+  "version": "0.0.1",
+  "documentation": "https://github.com/beddna/ha-token-ebus",
+  "issue_tracker": "https://github.com/beddna/ha-token-ebus/issues",
   "codeowners": [
-    "@TVUJ_GITHUB_UCET"
+    "@beddna"
   ],
   "config_flow": true,
-  "dependencies": [
-    "network"
-  ],
-  "documentation": "https://github.com/TVUJUCET/ha-token-ebus",
   "integration_type": "hub",
-  "iot_class": "local_push",
-  "issue_tracker": "https://github.com/TVUJUCET/ha-token-ebus/issues",
+  "iot_class": "local_polling",
   "requirements": [],
-  "version": "0.0.1"
+  "dependencies": [],
+  "loggers": []
 }

@@ -1,0 +1,17 @@
+{
+  "domain": "token_ebus",
+  "name": "Token eBUS",
+  "codeowners": [
+    "@TVUJ_GITHUB_UCET"
+  ],
+  "config_flow": true,
+  "dependencies": [
+    "network"
+  ],
+  "documentation": "https://github.com/TVUJUCET/ha-token-ebus",
+  "integration_type": "hub",
+  "iot_class": "local_push",
+  "issue_tracker": "https://github.com/TVUJUCET/ha-token-ebus/issues",
+  "requirements": [],
+  "version": "0.0.1"
+}

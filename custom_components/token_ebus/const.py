@@ -1,0 +1,9 @@
+DOMAIN = "token_ebus"
+
+DEFAULT_PORT = 9999
+
+DEFAULT_SCAN_INTERVAL = 2
+
+MANUFACTURER = "Token eAS"
+
+NAME = "Token eBUS"
